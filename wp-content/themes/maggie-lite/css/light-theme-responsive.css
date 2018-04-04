@@ -1,0 +1,26 @@
+@media screen and (max-width: 992px) {
+	.nav-toggle .fa {
+	    background: #ddd none repeat scroll 0 0;
+	    border-color: #ccc;
+	    color: #777;
+	}
+	.nav-toggle .fa:hover, .nav-toggle .fa:active, .nav-toggle .fa:focus {
+	    background: #ccc none repeat scroll 0 0;
+	    border: 1px solid #aaa;
+	    color: #777;
+	}
+	.main-navigation .menu li > ul.sub-menu {
+		background: #ddd;
+	}
+	.main-navigation ul li a, .main-navigation ul.sub-menu li:last-child > a {
+		border-bottom-color: #ccc;
+	}
+	.main-navigation ul.sub-menu li a {
+	    background: #ddd none repeat scroll 0 0;
+	    border-bottom-color: #ccc;
+	}
+	.main-navigation ul li.menu-item-has-children > a::before {
+		color: #333;
+	}
+
+}
